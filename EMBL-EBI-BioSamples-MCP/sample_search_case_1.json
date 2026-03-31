@@ -1,0 +1,15 @@
+{
+  "input_query": "Find human liver samples collected in London related to cirrhosis.",
+  "structured_search_filters": {
+    "organism": "Homo sapiens",
+    "sample_type": "liver",
+    "collection_location": "London",
+    "disease": "cirrhosis"
+  },
+  "expected_behavior": {
+    "convert_query_to_filters": true,
+    "run_biosamples_search": true,
+    "return_normalized_results": true
+  },
+  "status": "ready_for_search"
+}
