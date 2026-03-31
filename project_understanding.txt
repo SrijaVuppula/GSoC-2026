@@ -1,0 +1,31 @@
+Project: EMBL-EBI GSoC 2026 – BioSamples MCP Tools
+
+1. Main problem
+BioSamples has APIs for submission, validation, and search, but they are not directly usable by AI agents in a structured and deterministic way.
+
+2. What this project should build
+A BioSamples MCP server that exposes selected submission and search functionality as structured tools.
+
+3. Core capability A – Submission
+Take a plain-language sample description, extract metadata, map fields to BioSamples attributes, validate against a checklist, detect missing required fields, ask clarification questions, and produce a structured valid sample object.
+
+4. Core capability B – Search
+Take a plain-language search query, convert it into structured BioSamples search filters, run the search, and return normalized results.
+
+5. Key technical themes
+Python
+REST APIs
+HTTP/JSON
+Schema validation
+Metadata modeling
+MCP / AI tool interaction
+
+6. What success looks like
+A working MCP-based tool layer for BioSamples submission and search with deterministic, auditable outputs.
+
+7. What I can contribute
+Python-based implementation
+Structured metadata extraction flow
+Validation logic
+Clarification workflow
+Clean API-facing design
