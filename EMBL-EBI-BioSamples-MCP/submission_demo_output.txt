@@ -1,0 +1,32 @@
+{
+  "input_text": "Human liver biopsy collected in London in 2023 from a patient with cirrhosis.",
+  "structured_metadata": {
+    "organism": "Homo sapiens",
+    "sample_type": "liver biopsy",
+    "collection_location": "London",
+    "collection_date": "2023",
+    "condition_or_disease": "cirrhosis"
+  },
+  "missing_required_fields": [],
+  "clarification_questions": [],
+  "status": "ready_for_submission"
+}
+--------------------------------------------------
+{
+  "input_text": "Mouse blood sample collected in Athens from a subject with diabetes.",
+  "structured_metadata": {
+    "organism": "Mus musculus",
+    "sample_type": "blood sample",
+    "collection_location": "Athens",
+    "collection_date": null,
+    "condition_or_disease": "diabetes"
+  },
+  "missing_required_fields": [
+    "collection_date"
+  ],
+  "clarification_questions": [
+    "What is the collection date?"
+  ],
+  "status": "needs_clarification"
+}
+--------------------------------------------------

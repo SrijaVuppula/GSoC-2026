@@ -1,0 +1,21 @@
+Project: EMBL-EBI GSoC 2026 – BioSamples MCP
+
+Work completed so far:
+1. Created a project understanding note for the BioSamples MCP idea.
+2. Built a Python parser for submission-side sample metadata extraction.
+3. Added missing-field detection and clarification-question generation.
+4. Tested the submission parser on multiple sample descriptions.
+5. Built a Python parser for search-side natural-language query conversion.
+6. Tested the search parser on multiple search queries.
+7. Saved output files as proof-of-work artifacts.
+
+Current files:
+- biosamples_parser.py
+- biosamples_search_parser.py
+- submission_demo_output.txt
+- search_demo_output.txt
+- validation_rules.txt
+- project_understanding.txt
+
+Current direction:
+This prototype demonstrates the early structure of an AI-assisted BioSamples workflow for metadata extraction, validation, clarification, and search preparation.

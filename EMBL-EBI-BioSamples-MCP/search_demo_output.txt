@@ -1,0 +1,22 @@
+{
+  "input_query": "Find human liver samples collected in London related to cirrhosis.",
+  "structured_search_filters": {
+    "organism": "Homo sapiens",
+    "sample_type": "liver",
+    "collection_location": "London",
+    "condition_or_disease": "cirrhosis"
+  },
+  "status": "ready_for_search"
+}
+--------------------------------------------------
+{
+  "input_query": "Search for mouse blood samples from Athens with diabetes.",
+  "structured_search_filters": {
+    "organism": "Mus musculus",
+    "sample_type": "blood",
+    "collection_location": "Athens",
+    "condition_or_disease": "diabetes"
+  },
+  "status": "ready_for_search"
+}
+--------------------------------------------------
